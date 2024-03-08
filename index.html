@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Xmen project</title>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@200..800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/style.css">
+
+</head>
+<body>
+    <header class="cabecalho">
+        <img class="logo" src="./imagens/logo.svg" alt="Logo x-men">
+    </header>
+
+    <main class="selecao-de-personagens">
+        <section class="personagens">
+            <h1 class="titulo"> Selecione um personagem</h1>
+            <ul class="lista-de-personagens">
+                <li class="personagem" id="ciclope" data-name="Ciclope" 
+                data-description="Ele tem o poder de disparar rajadas ópticas por um 
+                acidente que aconteceu com ele quando criança,
+                mas não consegue controlá-los">
+                    <img src="./imagens/card-ciclope.jpg" 
+                    alt="Personagem ciclope">
+                </li>
+                <li class="personagem" id="jean-grey" data-name="Jean Grey" 
+                data-description="Jean Gray pode ler e projetar pensamentos e 
+                atordoar os oponentes com pura força psiônica.">
+                    <img src="./imagens/card-jean-grey.jpg" 
+                    alt="Personagem jean-grey">
+                </li>
+                <li class="personagem" id="lince-negra" data-name="Lince Negra"
+                data-description="Ela integrou a quarta formação dos X-Men, 
+                utilizando ao máximo sua habilidade de atravessar 
+                objetos sólidos e andar no ar.">
+                    <img src="./imagens/card-lince-negra.jpg" 
+                    alt="Personagem lince-negra">
+                </li>
+                <li class="personagem" id="magneto" data-name="Magneto"
+                data-description="Magneto é o mutante Erik Magnus Lehnsherr, 
+                com a capacidade de controle e manipulação de campos 
+                magnéticos bem como qualquer tipo de metal.">
+                    <img src="./imagens/card-magneto.jpg" 
+                    alt="Personagem magneto">
+                </li>
+                <li class="personagem" id="noturno" data-name="Noturno"
+                data-description="Como um mutante, Noturno possui agilidade 
+                sobre-humana, e a capacidade de teletransporte, 
+                invisibilidade em sombras profundas, e as mãos e os 
+                pés aderirem a parede.">
+                    <img src="./imagens/card-noturno.jpg" 
+                    alt="Personagem noturno">
+                </li>
+                <li class="personagem" id="tempestade" data-name="Tempestade"
+                data-description="Ela é capaz de controlar o clima e a atmosfera e 
+                é considerada uma dos mutantes mais poderosas do planeta.">
+                    <img src="./imagens/card-tempestade.jpg" 
+                    alt="Personagem tempestade">
+                </li>
+                <li class="personagem" id="vampira" data-name="Vampira"
+                data-description="Vampira foi treinada por Wolverine em 
+                técnicas de combate e por Gambit em acrobacias e no Savate, 
+                para incorporar em seu tipo de luta contra seus adversários.">
+                    <img src="./imagens/card-vampira.jpg" 
+                    alt="Personagem vampira">
+                </li>
+                <li class="personagem" id="wolverine" data-name="Wolverine"
+                data-description="Ele é um mutante que possui sentidos afiados, 
+                capacidades físicas aprimoradas, habilidade regenerativa poderosa 
+                conhecida como fator de cura e três garras ósseas retráteis
+                 ​​em cada mão.">
+                    <img src="./imagens/card-wolverine.jpg" 
+                    alt="Personagem wolverine">
+                </li>
+            </ul>
+        </section>
+        <section class="personagem-selecionado">
+            <img class="personagem-grande" src="./imagens/card-ciclope.png" 
+            alt="Personagem Selecionado">
+
+            <div class="informacoes-personagem">
+                <h2 class="nome-personagem" 
+                id="nome-personagem">Ciclope</h2>
+                <p 
+                class="descricao-personagem" 
+                id="descricao-personagem">
+                </p>
+            </div>
+        </section>
+    </main>
+
+
+
+
+    <script src="./js/main.js"></script>
+</body>
+</html>
